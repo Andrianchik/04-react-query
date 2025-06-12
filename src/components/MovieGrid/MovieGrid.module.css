@@ -1,6 +1,7 @@
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(5, 1fr);;
     max-width: 1440px;
     margin: 0 auto;
     gap: 12px;
@@ -10,6 +11,8 @@
 }
 
 .card {
+    width: 100%;
+    height: auto;
     position: relative;
     overflow: hidden;
     border-radius: 4px;
